@@ -1,0 +1,23 @@
+<center><h1>Insert Data</h1></center>
+<%= form_for @person do |f| %>
+ <center> <%= f.label :first_name %>
+  <%= f.text_field  :first_name %></center>
+  </br>
+  <center><%= f.label :last_name %>
+  <%= f.text_field :last_name %></center>
+  </br>
+  <center><%= f.label :age %>
+  <%= f.text_field :age %></center>
+  </br>
+  <center><%= f.label :hair_color %>
+  <%= f.text_field :hair_color %></center>
+  </br>
+  <center><%= f.label :eye_color %>
+  <%= f.text_field :eye_color %></center>
+  </br>
+  <center><%= f.label :alive %>
+  <%= f.text_field :alive %></center>
+</br>
+</br>
+  <center><%= f.submit %></center>
+<% end %>
